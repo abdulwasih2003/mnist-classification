@@ -1,6 +1,6 @@
 # Convolutional Deep Neural Network for Digit Classification
 
-## AIM
+## Aim
 
 To Develop a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images.
 
@@ -14,7 +14,7 @@ The MNIST dataset is a collection of handwritten digits. The task is to classify
 
 ![image](https://user-images.githubusercontent.com/75235488/192096529-cc1c119f-2e84-46db-96cb-439205ecf605.png)
 
-## DESIGN STEPS
+## Design Steps
 
 ### STEP 1:
 Import tensorflow and preprocessing libraries
@@ -25,7 +25,7 @@ Build a CNN model
 ### STEP 3:
 Compile and fit the model and then predict
 
-## PROGRAM
+## Program
 ```python
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
@@ -86,7 +86,7 @@ np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 
 ```
 
-## OUTPUT
+## Output:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 ### ACCURACY VS VAL_ACCURACY
@@ -107,5 +107,5 @@ np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 
 ![image](https://user-images.githubusercontent.com/75235488/189907327-69384ddd-16ed-4ba2-95c1-6e99e6dbaf63.png)
 
-## RESULT
+## Result:
 A convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is developed sucessfully.
